@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(2, 2, 42);
+}
+
+.loginContainer{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    height:250px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: rgb(65, 65, 130);
+    border-radius: 0 4px  10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    
+    transition: 0.3s ease;
+   
+
+}
+.loginContainer:hover{
+  background-color: rgb(124, 124, 175);
+   box-sizing:  0 0 20px  rgba(225 ,225,225 ,0.8),
+    0 0 40px  rgba(225 ,225,225 ,1);
+}
+
+.login{
+text-align:center;
+color: rgb(135, 159, 179);
+display: inline-block;
+padding: 10px;
+
+}
+.password{
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+.text{
+    padding: 5px;
+    display: block;
+}
+
+.user{
+   margin-bottom: 30px;
+   text-align: left;
+}
+.Button{
+    width: 280px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+
+}
+.Button:hover{
+    
+    background-color: rgb(103, 103, 158);
+    box-shadow: 0 0 20px  rgba(225 ,225,225 ,0.8),
+    0 0 40px  rgba(225 ,225,225 ,1);
+
+}
