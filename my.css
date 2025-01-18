@@ -20,7 +20,6 @@ body{
 }
 .Buttones{
    color: white;
- 
    margin-right: 60px;
    text-decoration: none;
    padding: 9px;
@@ -35,6 +34,7 @@ body{
    
 }
 .Imge{
+    position: fixed;
    height: 250px;
    width: 250px;
    border-radius: 50%;
@@ -53,12 +53,12 @@ transition: transform 0.3s, box-shadow 0.3s;
 .Imge:hover{
 
   transform: scale(1.2);
-  transform: scale(1.1); /* Slight zoom effect */
+  transform: scale(1.1); 
       box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7)
    
 }
 .text{
-position: absolute;
+position: fixed;
 top: 30%;
 margin-left: 50px;
 display: flex;
@@ -68,23 +68,23 @@ font-family: "Jersey 15", serif;
 font-weight: 400;
 font-style: normal;
 }
+
+
 .Login{
    padding: 20px;
    align-items: center;
    display: flex;
-   justify-content: center;
    font-size: 15px;
-   
-   padding-bottom: 70px;
+   float: center;
+   justify-content: center;
 }
 .Login a{
+  
    text-decoration: none;
    color: white;
    display: flex;
-   text-align: center;
-   align-items: center;
    padding: 15px;
-   min-width: 35px;
+
    background-color: rgb(216, 28, 15);
    cursor: pointer;
    border-radius: 50px;
@@ -96,9 +96,9 @@ transform: scale(1.1);
 }
 
 .Logo{
+   padding: 0px;
+   margin: 0px;
    position: absolute;
-   padding: 0%;
-   margin: 0%;
    top: 9%;
    left: 0%;
    display: flex;
@@ -107,23 +107,15 @@ transform: scale(1.1);
 
 }
 .intruduction{
-  position: absolute;
+  position: fixed;
   top: 350px;
   display: flex;
   font-size: 17px;
    left: 10%;
 }
 .chetan{
+   position: fixed;
 margin-top: 75px;
 margin-left: 80px;
    
-}
-h1{
-   position: absolute;
-   left: 19%;
-   top:0px;
-   display: flex;
-   font-size: 37px;
-   
-
 }
