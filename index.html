@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="my.css">
+  
 </head>
 <body>
-    <div class="text" style="text-align: center;">
-        <a class="login"><h1>Login</h1></a>
-        <br>
+  <div class="constainer">
+    <div class="nav">
+      <nav>
+       
+          <a class="Buttones" href=" ">About</a>
+          <a class="Buttones" href=" ">Projects</a>
+          <a class="Buttones" href=" ">Contact</a>
+   
+      </nav>
     </div>
-
-    <div class="loginContainer">
-        <div class="user">
-            <label for="userName">USERNAME :</label>
-            <input type="text" id="userName" placeholder="Enter User Name">
-        </div>
-        <div class="password">
-            <label for="password">PASSWORD :</label>
-            <input type="password" id="password" placeholder="Enter User Password">
-        </div>
-        <br><br>
-        <button type="button" class="Button" onclick="validateLogin()">Login</button>
+    
+ <div class="img">
+      <img class="Imge" src ="https://i.ibb.co/L8XNtf0/chetan-logo.jpg" alt="">
+      <img class="Logo"  src=" C:\Users\chetan\Downloads\ck_BACK GROUDpreview.png" alt=" ">
+      <div class="text">
+        <p>
+        <h1> Hi </h1><br><br><br>
+        <h3 class="chetan"> I'm <span style="color: rgb(255, 52, 52);">Chetan</span> <br> 
+         A Frontend Developer</h3>
+         
+      </div>
     </div>
-
-    <script>
-        function validateLogin() {
-            const correctUsername = "chetan_ck";
-            const correctPassword = "80033";
-
-            const enteredUsername = document.getElementById("userName").value;
-            const enteredPassword = document.getElementById("password").value;
-
-            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
-               window.location.href="home.html";
-            } else {
-                alert("Invalid username or password. Please try again.");
-            }
-        }
-    </script>
+    <p class="intruduction">Welcome To My PortFolio Here You can see My Projects <br>
+       About My Social Media And Curriculum activities And much more...</p>
+      </p>
+    </div>
+    <div class="Login">
+      <a href="index.html">Login</a>
+    </div>
+    
 </body>
 </html>
