@@ -1,4 +1,129 @@
 body{
-    background-color: bisque;
+   padding: 0%;
+   margin: 0%;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
+   background: linear-gradient(50deg ,rgb(109, 28, 133),rgb(172, 49, 49));
+}
+.nav{
+  
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   background-color: black;
+   margin: 0%;
+   padding: 30px;
+   padding-left: 150px;
+   padding-right: 150px;
+}
+.Buttones{
+   color: white;
+ 
+   margin-right: 60px;
+   text-decoration: none;
+   padding: 9px;
+   border-radius: 30%;
+   transition:1.3s cubic-bezier(0.19, 1, 0.22, 1);
+   cursor: pointer;
+   
+}
+.Buttones:hover {
+   transform: scale(2.1);
+   background: rgb(241, 86, 25);
+   
+}
+.Imge{
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+   display: flex;
+  float: right;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 100px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.6s ease;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.Imge:hover{
+
+  transform: scale(1.2);
+  transform: scale(1.1); /* Slight zoom effect */
+      box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7)
+   
+}
+.text{
+position: absolute;
+top: 30%;
+margin-left: 50px;
+display: flex;
+color: black;
+font-size: 30px;
+font-family: "Jersey 15", serif;
+font-weight: 400;
+font-style: normal;
+}
+.Login{
+   padding: 20px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+   
+   padding-bottom: 70px;
+}
+.Login a{
+   text-decoration: none;
+   color: white;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   padding: 15px;
+   min-width: 35px;
+   background-color: rgb(216, 28, 15);
+   cursor: pointer;
+   border-radius: 50px;
+   transition: 0.6s;
+}
+.Login a:hover{
+background: linear-gradient(50deg, #9b28c9,#d71313);
+transform: scale(1.1);
+}
+
+.Logo{
+   position: absolute;
+   padding: 0%;
+   margin: 0%;
+   top: 9%;
+   left: 0%;
+   display: flex;
+   height: 110px;
+   width: 110px;
+
+}
+.intruduction{
+  position: absolute;
+  top: 350px;
+  display: flex;
+  font-size: 17px;
+   left: 10%;
+}
+.chetan{
+margin-top: 75px;
+margin-left: 80px;
+   
+}
+h1{
+   position: absolute;
+   left: 19%;
+   top:0px;
+   display: flex;
+   font-size: 37px;
+   
 
 }
