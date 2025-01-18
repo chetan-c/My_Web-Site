@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="text" style="text-align: center;">
+        <a class="login"><h1>Login</h1></a>
+        <br>
+    </div>
+
+    <div class="loginContainer">
+        <div class="user">
+            <label for="userName">USERNAME :</label>
+            <input type="text" id="userName" placeholder="Enter User Name">
+        </div>
+        <div class="password">
+            <label for="password">PASSWORD :</label>
+            <input type="password" id="password" placeholder="Enter User Password">
+        </div>
+        <br><br>
+        <button type="button" class="Button" onclick="validateLogin()">Login</button>
+    </div>
+
+    <script>
+        function validateLogin() {
+            const correctUsername = "chetan_ck";
+            const correctPassword = "80033";
+
+            const enteredUsername = document.getElementById("userName").value;
+            const enteredPassword = document.getElementById("password").value;
+
+            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+               window.location.href="home.html";
+            } else {
+                alert("Invalid username or password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>
