@@ -58,16 +58,19 @@ transition: transform 0.3s, box-shadow 0.3s;
    
 }
 .text{
-position: fixed;
+position: absolute;
+padding: 0%;
+margin: 0%;
 top: 30%;
+left: 6%;
 margin-left: 50px;
 display: flex;
 color: black;
 font-size: 30px;
-font-family: "Jersey 15", serif;
-font-weight: 400;
+font-weight: 400px;
 font-style: normal;
 }
+
 
 
 .Login{
@@ -84,7 +87,6 @@ font-style: normal;
    color: white;
    display: flex;
    padding: 15px;
-
    background-color: rgb(216, 28, 15);
    cursor: pointer;
    border-radius: 50px;
@@ -107,15 +109,28 @@ transform: scale(1.1);
 
 }
 .intruduction{
-  position: fixed;
-  top: 350px;
+  position: absolute;
+  top: 130px;
   display: flex;
   font-size: 17px;
    left: 10%;
 }
+
+@media (max-width: 768px) {
+   .intruduction {
+     top: 20px; 
+     left: 10px; 
+     transform: none; 
+     width: calc(100% - 20px); 
+   }
+ }
+
 .chetan{
-   position: fixed;
+position: absolute;
 margin-top: 75px;
 margin-left: 80px;
-   
+}
+
+span{
+   color: #e81515;
 }
