@@ -123,17 +123,6 @@ transform: scale(1.1);
    }
  }
 
-@media (max-width: 768px) {
-   .Login {
-     top: 30px; 
-     left: 50px; 
-      justify-content: center;
-     transform: none; 
-      display: flex;
-     width: calc(100% - 20px); 
-   }
- }
-
 .chetan{
 position: absolute;
 margin-top: 75px;
