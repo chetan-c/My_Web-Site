@@ -58,7 +58,7 @@ transition: transform 0.3s, box-shadow 0.3s;
    
 }
 .text{
-position: absolut;
+position: absolute;
 padding: 0%;
 margin: 0%;
 top: 30%;
@@ -71,13 +71,12 @@ font-weight: 400px;
 font-style: normal;
 }
 
-
-
 .Login{
    padding: 20px;
+   align-items: center;
    display: flex;
    font-size: 15px;
-   margin:20px auto;
+   float: center;
    justify-content: center;
 }
 .Login a{
@@ -95,17 +94,6 @@ font-style: normal;
 background: linear-gradient(50deg, #9b28c9,#d71313);
 transform: scale(1.1);
 }
-
-
-@media (max-width: 768px) {
-   .Login {
-     top: 30px; 
-      text-align: center;
-     left: 30px; 
-     transform: none; 
-     width: calc(100% - 20px); 
-   }
- }
 
 .Logo{
    padding: 0px;
@@ -131,6 +119,17 @@ transform: scale(1.1);
      top: 20px; 
      left: 10px; 
      transform: none; 
+     width: calc(100% - 20px); 
+   }
+ }
+
+@media (max-width: 768px) {
+   .Login {
+     top: 30px; 
+     left: 50px; 
+      justify-content: center;
+     transform: none; 
+      display: flex;
      width: calc(100% - 20px); 
    }
  }
