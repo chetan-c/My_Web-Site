@@ -97,6 +97,16 @@ background: linear-gradient(50deg, #9b28c9,#d71313);
 transform: scale(1.1);
 }
 
+
+@media (max-width: 768px) {
+   .Login {
+     top: 30px; 
+     left: 30px; 
+     transform: none; 
+     width: calc(100% - 20px); 
+   }
+ }
+
 .Logo{
    padding: 0px;
    margin: 0px;
