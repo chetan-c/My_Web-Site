@@ -58,7 +58,7 @@ transition: transform 0.3s, box-shadow 0.3s;
    
 }
 .text{
-position: absolute;
+position: absolut;
 padding: 0%;
 margin: 0%;
 top: 30%;
@@ -75,10 +75,9 @@ font-style: normal;
 
 .Login{
    padding: 20px;
-   align-items: center;
    display: flex;
    font-size: 15px;
-   float: center;
+   margin:20px auto;
    justify-content: center;
 }
 .Login a{
@@ -99,8 +98,9 @@ transform: scale(1.1);
 
 
 @media (max-width: 768px) {
-   .Login a{
+   .Login {
      top: 30px; 
+      text-align: center;
      left: 30px; 
      transform: none; 
      width: calc(100% - 20px); 
