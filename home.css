@@ -104,7 +104,7 @@ h1{
 .yt{
    position: absolute;
    left: 74%;
-   top: 86%;
+   top: 88%;
    cursor: pointer;
  
    padding: 0%;
@@ -122,7 +122,7 @@ h1{
 .insta{
    position: absolute;
    left: 85%;
-   top: 88%;
+   top: 91%;
    cursor: pointer;
    transition: transform 0.6s ease;
    transition: transform 0.3s, box-shadow 0.3s;
@@ -136,7 +136,7 @@ h1{
 .git{
    position: absolute;
    left: 94%;
-   top: 88%;
+   top: 91%;
    cursor: pointer;
    transition: transform 0.6s ease;
    transition: transform 0.3s, box-shadow 0.3s;
