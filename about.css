@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(78deg ,rgb(148, 36, 182),rgb(208, 45, 45));
+}
+
+.Logo{
+    position: absolute;
+    top: 4%;
+  
+    left: 1px;
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.button{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    left: 42%;
+    right: 50%;
+    gap: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: transform ease;
+}
+.button a{
+    padding: 5px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(209, 41, 41);
+   border-radius: 37px;
+   padding: 7px;
+   text-decoration: none;
+   transition: transform 0.6s ease;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+.button :hover{
+background: linear-gradient(50deg , #c51010 ,#6f0c6f);
+transition: calc(1.1);
+transform: scale(3.1);
+box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+
+}
+
+
+.image {
+    align-items: center;
+   
+
+    justify-content: center;
+}
+.youtube{
+   
+    justify-content: center;
+    
+
+}
+.yt{
+    position: absolute;
+    left: 35%;
+    top: 61%;
+    cursor: pointer;
+  
+    padding: 0%;
+    margin: 0%;
+    transition: transform 0.6s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.yt:hover{
+    transform: scale(6.2);
+    transform: scale(1.1); 
+       
+}
+
+.insta{
+    position: absolute;
+    left: 47%;
+    top: 63%;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.insta:hover{
+    transform: scale(6.2);
+    transform: scale(1.1);  
+}
+
+
+.git{
+    position: absolute;
+    left: 57%;
+    top: 63%;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.git :hover{
+    transform: scale(6.2);
+    transform: scale(1.1); 
+
+}
+.nav{
+
+    background-color: black;
+    display: flex;
+    width: 200px;
+}
