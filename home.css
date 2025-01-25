@@ -1,0 +1,149 @@
+body{
+   padding: 0%;
+   margin: 0%;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
+   background: linear-gradient(50deg ,rgb(141, 36, 174),rgb(212, 35, 35));
+}
+.nav{
+  
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   background-color: black;
+   margin: 0%;
+   padding: 30px;
+   padding-left: 150px;
+   padding-right: 150px;
+}
+.Buttones{
+   color: white;
+   margin-right: 60px;
+   
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 30%;
+   transition:1.3s cubic-bezier(0.19, 1, 0.22, 1);
+   cursor: pointer;
+   
+}
+.Buttones:hover {
+   transform: scale(2.1);
+   background: rgb(241, 86, 25);
+   
+}
+.Imge{
+    position: fixed;
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+   display: flex;
+  float: right;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 100px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.6s ease;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.Imge:hover{
+
+  transform: scale(6.2);
+  transform: scale(1.1); 
+      box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+   
+}
+
+.Logo{
+   padding: 0px;
+   margin: 0px;
+   position: absolute;
+   top: 10%;
+   left: 0%;
+   display: flex;
+   height: 110px;
+   width: 110px;
+
+}
+.text{
+  font-size: 45px;
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+}
+ .text p{
+   margin: 0 auto; /* Centers the paragraph */
+  max-width: 600px; /* Restricts paragraph width for readability */
+  line-height: 1.5; /* Sets consistent line spacing */
+  font-size: 18px;
+}
+span{
+   color: rgb(211, 33, 33);
+   font-weight: bold;
+}
+h1{
+   position: absolute;
+   top: 35%;
+   left: 10%;
+
+}
+.Hi{
+   font-size: 20px;
+   size: 20%;
+   position: absolute;
+   top: 48%;
+   left: 10%;
+
+}
+.yt{
+   position: absolute;
+   left: 74%;
+   top: 86%;
+   cursor: pointer;
+ 
+   padding: 0%;
+   margin: 0%;
+   transition: transform 0.6s ease;
+ transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.yt:hover{
+   transform: scale(6.2);
+   transform: scale(1.1); 
+      
+}
+
+.insta{
+   position: absolute;
+   left: 85%;
+   top: 88%;
+   cursor: pointer;
+   transition: transform 0.6s ease;
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+.insta:hover{
+   transform: scale(6.2);
+   transform: scale(1.1);  
+}
+
+
+.git{
+   position: absolute;
+   left: 94%;
+   top: 88%;
+   cursor: pointer;
+   transition: transform 0.6s ease;
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.git :hover{
+   transform: scale(6.2);
+   transform: scale(1.1); 
+
+}
