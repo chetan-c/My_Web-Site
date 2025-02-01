@@ -1,41 +1,55 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
 body{
-   padding: 0%;
-   margin: 0%;
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   justify-content: space-between;
    background: linear-gradient(50deg ,rgb(141, 36, 174),rgb(212, 35, 35));
+   display: flex;
+   height: 100vh;
+}
+.constainer{
+   height: 100%;
+   width: 100%;
 }
 .nav{
-  
-   display: flex;
-   justify-content: center;
-   align-items:center;
-   background-color: black;
-   margin: 0%;
-   padding: 30px;
-   padding-left: 150px;
-   padding-right: 150px;
-}
-.Buttones{
-   color: white;
-   margin-right: 60px;
    
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   background-color: black;
+}
+span{
+   color: rgb(223, 19, 19);
+   margin-left: 10px;
+}
+.Buttones a{
+   margin-left: 45px;
    text-decoration: none;
    padding: 10px;
-   border-radius: 30%;
-   transition:1.3s cubic-bezier(0.19, 1, 0.22, 1);
+   color: #fff;
+   border-radius: 20%;
+  
+}
+
+.Buttones{
+   padding: 20px;
+   text-decoration: none;
+   color: #fff;
    cursor: pointer;
-   
+   transition: transform 0.6s ease;
+  
 }
-.Buttones:hover {
-   transform: scale(2.1);
-   background: rgb(241, 86, 25);
-   
+.Buttones a:hover{
+transition: calc(1.1);
+background-color: rgb(209, 63, 27);
+
+
 }
+
 .Imge{
-    position: fixed;
+   position: fixed;
    height: 250px;
    width: 250px;
    border-radius: 50%;
@@ -43,100 +57,178 @@ body{
   float: right;
   justify-content: center;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 90px;
   cursor: pointer;
   position: relative;
   transition: transform 0.6s ease;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
 transition: transform 0.3s, box-shadow 0.3s;
-
+   
 }
 .Imge:hover{
 
-  transform: scale(6.2);
-  transform: scale(1.1); 
-      box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
-   
-}
-.text{
-position: absolute;
-padding: 0%;
-margin: 0%;
-top: 30%;
-left: 6%;
-margin-left: 50px;
-display: flex;
-color: black;
-font-size: 30px;
-font-weight: 400px;
-font-style: normal;
-}
-
-.Login{
-   padding: 20px;
-   align-items: center;
-   display: flex;
-   font-size: 15px;
-   float: center;
-   justify-content: center;
-}
-.Login a{
-  
-   text-decoration: none;
-   color: white;
-   display: flex;
-   padding: 15px;
-   background-color: rgb(216, 28, 15);
-   cursor: pointer;
-   border-radius: 50px;
-   transition: 0.6s;
-}
-.Login a:hover{
-background: linear-gradient(50deg, #9b28c9,#d71313);
-transform: scale(1.1);
-}
-
-.Logo{
-   padding: 0px;
-   margin: 0px;
-   position: absolute;
-   top: 10%;
-   left: 0%;
-   display: flex;
-   height: 110px;
-   width: 110px;
-
-}
-.intruduction{
-  position: absolute;
-  top: 130px;
-  display: flex;
-  font-size: 17px;
-   left: 4%;
-}
-
-@media (max-width: 768px) {
-   .intruduction {
-     top: 20px; 
-     left: 10px; 
-     transform: none; 
-     width: calc(100% - 20px); 
-   }
+   transform: scale(6.2);
+   transform: scale(1.1); 
+       box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+    
  }
-
-.chetan{
-position: absolute;
-margin-top: 75px;
-margin-left: 80px;
+.Logo{
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   top: 15%;
 }
-
-span{
-   color: #e81515;
+h3{
+   position: absolute;
+   left: 4%;
+   display: flex;
+   font-size: 30px;
+   flex-wrap: wrap;
 }
 .deleloper{
-   margin-top: 19px; 
-   margin-right: 70px;
-  font-size: 30px;
-  font-weight: normal;
+   white-space:nowrap;
+   display: flex;
+   position: absolute;
+   left: 50%;
+   font-size: 30px;
+}
+.text{
+   font-size: 45px;
+   display: flex;
+   position: absolute;
+   top: 45%;
+   left: 8%;
+}
+p{
+   display: flex;
+   font-size: 17px;
+   padding-top: 80px;
+   text-decoration: none;
+   padding-left: 10px;
+   
+   
+}
+.Login a{
+   text-decoration: none;
+   position: absolute;
+   padding: 10px;
+   border-radius: 30%;
+   top: 80%;
+   left: 50%;
+   color: #fff;
+   background-color:rgb(223, 23, 23);
+   transition: 1.1s transform ease;
+}
+.Login a:hover{
+   background: linear-gradient(20deg,#ff2020,#dd30fc);
+transition: transform scale(1.1);
+}
 
+@media(max-width:450px) {
+
+   .nav{
+   
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-color: black;
+   }
+   .Logo{
+      height: 70px;
+      width: 70px;
+      position: absolute;
+      top: 15%;
+   }
+   .Imge{
+      
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      top: 4%;
+      left: 50%;
+     cursor: pointer;
+     transition: transform 0.6s ease;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+   transition: transform 0.3s, box-shadow 0.3s;
+      
+   }
+
+   h3{
+      position: absolute;
+      left: 6%;
+      top: 20%;
+      display: flex;
+      font-size: 20px;
+      flex-wrap: wrap;
+   }
+   .deleloper{
+      white-space:nowrap;
+      display: flex;
+      position: absolute;
+      top: 33%;
+      left: 25%;
+      font-size: 20px;
+   }
+   .text{
+      font-size: 45px;
+      display: flex;
+      position: absolute;
+      top: 35%;
+      left: 8%;
+   }
+   p{
+    
+      font-size: 10px;
+      padding-top: 65px;
+      margin-top: 25px;
+      text-decoration: none;
+      padding-left: 9px;
+      
+      
+   }
+   .Login a{
+      text-decoration: none;
+      position: absolute;
+      padding: 10px;
+      border-radius: 30%;
+      top: 60%;
+      left: 45%;
+      color: #fff;
+      background-color:rgb(237, 44, 44);
+      transition: 1.1s transform ease;
+   }
+   .Login a:hover{
+   background-color: rgb(213, 49, 23);
+   transition: transform scale(1.1);
+   }
+   span{
+      color: rgb(223, 19, 19);
+      margin-left: 10px;
+   }
+   .Buttones a{
+      margin-left: 10px;
+      text-decoration: none;
+      padding: 10px;
+      color: #fff;
+      border-radius: 20%;
+     
+   }
+   
+   .Buttones{
+      padding: 10px;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.6s ease;
+     
+   }
+   .Buttones a:hover{
+   transition: calc(1.1);
+   background-color: rgb(209, 63, 27);
+   
+   
+   }
 }
