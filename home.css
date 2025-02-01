@@ -1,3 +1,4 @@
+
 body{
    padding: 0%;
    margin: 0%;
@@ -102,9 +103,11 @@ h1{
 
 }
 .yt{
+   height: 80px; 
+   width: 80px;
    position: absolute;
    left: 74%;
-   top: 88%;
+   top: 86%;
    cursor: pointer;
  
    padding: 0%;
@@ -120,9 +123,11 @@ h1{
 }
 
 .insta{
+   height: 47px; 
+   width: 47px;
    position: absolute;
    left: 85%;
-   top: 91%;
+   top: 88%;
    cursor: pointer;
    transition: transform 0.6s ease;
    transition: transform 0.3s, box-shadow 0.3s;
@@ -134,9 +139,11 @@ h1{
 
 
 .git{
+   height: 55px; 
+   width: 55px;
    position: absolute;
    left: 94%;
-   top: 91%;
+   top: 88%;
    cursor: pointer;
    transition: transform 0.6s ease;
    transition: transform 0.3s, box-shadow 0.3s;
@@ -146,4 +153,146 @@ h1{
    transform: scale(6.2);
    transform: scale(1.1); 
 
+}
+
+@media (max-width: 450px) {
+   .nav{
+  
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      background-color: black;
+      margin: 0%;
+      padding: 20px;
+      
+   }
+   .Buttones{
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 30%;
+      transition:1.3s cubic-bezier(0.19, 1, 0.22, 1);
+      cursor: pointer;
+      
+   }
+   .Buttones:hover {
+      transform: scale(2.1);
+      background: rgb(241, 86, 25);
+      
+   }
+   .Imge{
+       position: absolute;
+       top: 54%;
+       left: 21%;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      display: flex;
+     float: right;
+     justify-content: center;
+     margin-right: 100px;
+     margin-top: 205px;
+     cursor: pointer;
+     position: relative;
+     transition: transform 0.6s ease;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+   transition: transform 0.3s, box-shadow 0.3s;
+   
+   }
+   .Imge:hover{
+   
+     transform: scale(6.2);
+     transform: scale(1.1); 
+         box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+      
+   }
+   
+   .Logo{
+      padding: 0px;
+      margin: 0px;
+      position: absolute;
+      top: 10%;
+      left: 0%;
+      display: flex;
+      height: 80px;
+      width: 80px;
+   
+   }
+   .text{
+     font-size: 15px;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+   }
+    .text p{
+      margin: 0 auto; /* Centers the paragraph */
+     max-width: 600px; /* Restricts paragraph width for readability */
+     line-height: 1.1; /* Sets consistent line spacing */
+     font-size: 17px;
+     margin-top: 70px;
+   }
+   span{
+      color: rgb(249, 21, 21);
+      font-weight: bold;
+   }
+   h1{
+      
+      position: absolute;
+      top: 20%;
+      left: 10%;
+   }
+   .Hi{
+      position: absolute;
+      top: 55%;
+   }
+   .yt{
+      height: 80px;
+      position: absolute;
+      left: 40%;
+      top: 88%;
+      cursor: pointer;
+      padding: 0%;
+      margin: 0%;
+      display: none;
+      transition: transform 0.6s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
+   }
+   
+   .yt:hover{
+      transform: scale(6.2);
+      transform: scale(1.1); 
+         
+   }
+   
+   .insta{
+      position: absolute;
+      left: 10%;
+      top: 90%;
+      display: none;
+      cursor: pointer;
+      transition: transform 0.6s ease;
+      transition: transform 0.3s, box-shadow 0.3s;
+   }
+   .insta:hover{
+      transform: scale(6.2);
+      transform: scale(1.1);  
+   }
+   .Hi{
+      position: absolute;
+      
+   }
+   
+   .git{
+     
+      position: absolute;
+      left: 80%;
+      top: 90%;
+      display: none;
+      cursor: pointer;
+      transition: transform 0.6s ease;
+      transition: transform 0.3s, box-shadow 0.3s;
+   }
+  
 }
