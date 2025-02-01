@@ -1,13 +1,15 @@
 body{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
     background: linear-gradient(50deg ,rgb(109, 28, 133),rgb(172, 49, 49));
     height: 100vh;
-    min-width: 100vh;
+  
 }
 
 .loginContainer{
-   
-    width: 100%;
-    max-width: 350px;
+    align-items: center;
+    justify-content: center;
     height:350px;
     margin: 100px auto;
     padding: 20px;
@@ -36,12 +38,12 @@ body{
 text-align:center;
 justify-content: center;
 color: white;
-display: flex;
+margin-left: 470px;
 
 
 }
 .password{
-    margin-bottom: 50px;
+   margin-top: 40px;
     text-align: left;
 
 }
@@ -50,18 +52,24 @@ display: flex;
 justify-content: center;
 display: flex;
 align-items: center;
-    padding: 5px;
+    padding: 5px;  
     
+}
+h1{
+    position: absolute;
+    left: 46%;
+    color: #fff;
 }
 
 .user{
-   margin-bottom: 30px;
+  margin-top: 25px;
    text-align: left;
 }
 .Button{
     width: 280px;
     height: 30px;
     cursor: pointer;
+    margin-top: 50px;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease;
@@ -73,4 +81,91 @@ align-items: center;
     box-shadow: 0 0 20px  rgba(225 ,225,225 ,0.8),
     0 0 40px  rgba(225 ,225,225 ,1);
 
+}
+@media(max-width:450px) {
+  
+*{
+    justify-content: center;
+    max-width: 100%;
+    
+}
+    .loginContainer{
+   
+
+        height:350px;
+        margin: 70px auto;
+        padding: 20px;
+        background: linear-gradient(50deg ,rgb(164, 55, 197),rgb(227, 46, 46));
+        border-radius: 0 4px  10px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.6s ease;
+        transition: 0.3s ease;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+        transition: transform 0.3s, box-shadow 0.3s;
+       
+    
+    }
+    .loginContainer:hover{
+        transform: scale(1.1);
+        background: linear-gradient(50deg ,rgb(227, 46, 46),rgb(164, 55, 197));
+       box-sizing:  0 0 20px  rgba(225 ,225,225 ,0.8),
+        0 0 40px  rgba(225 ,225,225 ,1);
+        transform: scale(1.1); 
+        box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+    }
+    
+    .login{
+        margin-left: 200px;
+        position: absolute;
+        left: 70%;
+        display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    
+    
+    }
+    .password{
+        margin-bottom: 50px;
+        text-align: left;
+    
+    }
+    .text{
+       
+    justify-content: center;
+    display: flex;
+    align-items: center;
+        padding: 5px;
+        
+    }
+    h1{
+        position: absolute;
+        left: 44%;
+    }
+    
+    .user{
+       margin-bottom: 30px;
+       text-align: left;
+    }
+    .Button{
+        width: 280px;
+        height: 30px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s ease;
+    
+    }
+    .Button:hover{
+        
+        background-color: rgb(193, 87, 202);
+        box-shadow: 0 0 20px  rgba(225 ,225,225 ,0.8),
+        0 0 40px  rgba(225 ,225,225 ,1);
+    
+    }
+    
 }
