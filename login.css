@@ -82,7 +82,7 @@ h1{
     0 0 40px  rgba(225 ,225,225 ,1);
 
 }
-@media(max-width:450px) {
+@media(max-width:750px) {
   
 *{
     justify-content: center;
