@@ -80,13 +80,13 @@ body {
     border-radius: 10px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     .image-grid {
       grid-template-columns: repeat(2, 1fr); /* Two images per row on tablets */
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 720px) {
     .image-grid {
       grid-template-columns: repeat(1, 1fr); /* One image per row on mobile */
     }
